@@ -15,12 +15,13 @@ _A list of my commonly used Git commands_
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
 
-###Push a project at Github
+### Push a project at Github
 
 | Command | Description |
 | ------- | ----------- |
 |  `git init` | Initialize a local Git repository |
 |  `git add README.md` | Project Information |
+|  `git add .` | Repository Add |
 |  `git commit -m "first commit"` | Commit changes |
 |  `git remote add origin https://github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 |  `git push -u origin maste` | |
